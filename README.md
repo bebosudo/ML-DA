@@ -15,13 +15,13 @@ These are the instructions to follow:
 
 1. install *virtualenvwrapper* for every user on your pc, __with root permissions__:
 
-    # pip3 install virtualenvwrapper
+```
+# pip3 install virtualenvwrapper
+```
 
-2. add the needed config to your `.profile` or `.bash_profile` file::
+2. add the needed config to your `.profile` or `.bash_profile` file:
 
 ```
-#!bash
-
 VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=$HOME/.venvs
 source $(which virtualenvwrapper.sh)
@@ -29,21 +29,28 @@ source $(which virtualenvwrapper.sh)
 
 3. then reload your `.profile` or `.bash_profile` file:
 
-    $ source ~/.bashrc
+```
+$ source ~/.bashrc
+```
 
 4. and eventually create a virtualenv for this project, using python3 as the python executable:
 
-    $ mkvirtualenv -p $(which python3) ML_DA
+```
+$ mkvirtualenv -p $(which python3) ML_DA
+```
 
 ## Normal usage
 
 For a daily usage, activate the virtualenv created before:
 
-    $ workon ML_DA
+```
+$ workon ML_DA
+```
 
 Now you can manage it as a normal virtualenv.
 
 To install the requirements [use pip](https://pip.pypa.io/en/stable/) (and a virtualenv isolated sandbox is suggested to avoid messing up different packages from different projects), paste:
 
-    $ pip3 install -r python_requirements.txt
-
+```
+$ pip3 install -r python_requirements.txt
+```
