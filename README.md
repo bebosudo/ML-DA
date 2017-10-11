@@ -6,7 +6,7 @@ Datasets usually are either provided along with the python jupyter notebooks, or
 
 ## "First time only" config
 
-Python 3 is required: if you installed python 3 using your distribution package manager or by compiling it from source you should already have `pip3` installed, otherwise install it following [these instructions](https://pip.pypa.io/en/stable/installing/).
+Python3 is required: if you installed python 3 using your distribution package manager or by compiling it from source you should already have `pip3` installed, otherwise install it following [these instructions](https://pip.pypa.io/en/stable/installing/).
 
 I suggest to use a virtual-environment (virtualenv) to set up a dedicated sandbox for this project.
 Moreover, to better manage different virtualenvs, I suggest to use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/index.html).
