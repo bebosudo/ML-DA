@@ -54,3 +54,12 @@ To install the requirements [use pip](https://pip.pypa.io/en/stable/) (and a vir
 ```
 $ pip3 install -r python_requirements.txt
 ```
+
+
+## Enable the jupyter notebook
+
+In the repository base folder just type:
+
+```
+$ jupyter-notebook
+```
